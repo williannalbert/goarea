@@ -16,7 +16,5 @@ func Rect(base, altura float64) float64 {
 
 //Não é visivel devido ao _
 func _Triangulo(base, altura float64) float64 {
-	return (base * altura) / 2
+	return (base * altura) / 2 * 1
 }
-
-fmt.println("Fim do programa")
